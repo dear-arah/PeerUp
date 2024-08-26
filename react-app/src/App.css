@@ -24,8 +24,8 @@ body, html {
   .PeerUpLandingPage {
     font-size: 96px;
     font-weight: bolder;
-    color: #2d4858;
-    margin-top: 120px;
+    color: #364958;
+    margin-top: 10%;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -39,14 +39,25 @@ body, html {
   
   .auth-tabs {
     display: flex;
-    gap: 20px;
+    gap: 24px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: bold;
+    align-self: center;
   }
   
   .active-tab {
     font-weight: bold;
-    color: #2d4858;
-    border-bottom: 2px solid #2d4858;
+    color: #364958;
+    border-bottom: 2px solid #364958;
+  }
+
+  #login-txt{
+    font-size: 24px;
+  }
+
+  #signup-txt{
+    font-size: 24px;
   }
   
   .inactive-tab {
@@ -54,43 +65,51 @@ body, html {
   }
   
   .input-fields {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    align-self: center;
+    width: 40%;
   }
   
   .input-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+
   }
   
   .input-wrapper label {
     display: block;
-    margin-bottom: 5px;
-    color: #2d4858;
+    margin-bottom: 4px;
+    color: #364958;
+    font-weight: bold;
+    font-size: 14px;
   }
   
   .input-wrapper input {
     width: 100%;
     padding: 10px 15px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 14px;
+
   }
   
   .login-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #2d4858;
+    width: 15%;
+    padding: 8px;
+    background-color: #3B6064;
     color: white;
     border: none;
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
+    align-self: center;
   }
   
   .forgot-password {
     margin-top: 10px;
+    font-size: 10px;
     text-align: center;
-    color: #707070;
+    color: #3B6064;
   }
   
   .LandingPageRight {

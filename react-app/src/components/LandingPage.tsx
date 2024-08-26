@@ -6,8 +6,8 @@ function LandingPage() {
           <p className="Tagline">Upskill with a mentor perfectly paired for you.</p>
   
           <div className="auth-tabs">
-            <p className="active-tab">Login</p>
-            <p className="inactive-tab">Sign Up</p>
+            <p className="active-tab" id="login-txt">Login</p>
+            <p className="inactive-tab" id="signup-txt">Sign Up</p>
           </div>
   
           <div className="input-fields">
@@ -15,6 +15,7 @@ function LandingPage() {
               <label>Username</label>
               <input type="text" placeholder="Enter Username" />
             </div>
+          
             <div className="input-wrapper">
               <label>Password</label>
               <input type="password" placeholder="Enter Password" />
