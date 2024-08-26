@@ -1,9 +1,19 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from "./components/LandingPage.tsx";
+import Homepage from "./components/Homepage.tsx";
+
 import "./App.css";
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
 
 function App(){
-  return <div> <LandingPage /> </div>;
+  return(
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/new-page" element={<Homepage />} />
+      </Routes>
+    </Router>
+  );
+  
 }
 
 

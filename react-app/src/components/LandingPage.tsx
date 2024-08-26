@@ -1,4 +1,13 @@
+import { useNavigate } from 'react-router-dom';
+
+
+
 function LandingPage() {
+    const navigate = useNavigate();
+    const handleClick = () => {
+      navigate('/new-page');
+    };
+
     return (
       <div className="LandingPage">
         <div className="LandingPageLeft">
@@ -22,7 +31,7 @@ function LandingPage() {
             </div>
           </div>
   
-          <button className="login-button">Login</button>
+          <button className="login-button" onClick={handleClick}>Login</button>
           <p className="forgot-password">Forgot Password?</p>
         </div>
   
