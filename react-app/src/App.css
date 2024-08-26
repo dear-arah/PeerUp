@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .LandingPage {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .LandingPageLeft {
+    flex: 1;
+    padding: 100px 50px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .PeerUpLandingPage {
+    font-size: 96px;
+    font-weight: bolder;
+    color: #2d4858;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Tagline {
+    font-size: 12px;
+    color: #707070;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .auth-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .active-tab {
+    font-weight: bold;
+    color: #2d4858;
+    border-bottom: 2px solid #2d4858;
+  }
+  
+  .inactive-tab {
+    color: #c7c7c7;
+  }
+  
+  .input-fields {
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2d4858;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d4858;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  .LandingPageRight {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    background: #f8f9fa;
+  }
+  
+  .circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    border-radius: 500px 0 0 500px;
+  }
+  
+  .circle1 {
+    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+  }
+
+  .circle2 {
+    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+    width: 100%;
+    height: 100%;
+    right: -70px;
+    opacity: 70%;
+  }
+
+  .circle3 {
+    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+    width: 100%;
+    height: 100%;
+    right: -150px;
+  }
+
+  .arrow{
+    position: absolute;
+    width: 55%;
+    height: auto;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%); /* Center the arrow */
+    z-index: 2; /* Ensure it appears on top of the circles */
+  }
+  
+
+  
