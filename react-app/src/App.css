@@ -1,159 +1,167 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .LandingPage {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .LandingPageLeft {
-    flex: 1;
-    padding: 100px 50px;
-    background-color: #f8f9fa;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .PeerUpLandingPage {
-    font-size: 96px;
-    font-weight: bolder;
-    color: #364958;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .Tagline {
-    font-size: 12px;
-    color: #707070;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  .auth-tabs {
-    display: flex;
-    gap: 24px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    align-self: center;
-  }
-  
-  .active-tab {
-    font-weight: bold;
-    color: #364958;
-    border-bottom: 2px solid #364958;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 100%;
+}
 
-  #login-txt{
-    font-size: 24px;
-  }
+.LandingPage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
 
-  #signup-txt{
-    font-size: 24px;
-  }
-  
-  .inactive-tab {
-    color: #c7c7c7;
-  }
-  
-  .input-fields {
-    margin-bottom: 8px;
-    align-self: center;
-    width: 40%;
-  }
-  
-  .input-wrapper {
-    margin-bottom: 8px;
+.LandingPageLeft {
+  flex: 1;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  }
-  
-  .input-wrapper label {
-    display: block;
-    margin-bottom: 4px;
-    color: #364958;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  .input-wrapper input {
-    width: 100%;
-    padding: 10px 15px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
-    font-size: 14px;
+.PeerUpLandingPage {
+  font-size: 96px;
+  font-weight: bolder;
+  color: #2d4858;
+  margin-top: 120px;
+  color: #364958;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-  }
-  
-  .login-button {
-    width: 15%;
-    padding: 8px;
-    background-color: #3B6064;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    align-self: center;
-  }
-  
-  .forgot-password {
-    margin-top: 10px;
-    font-size: 10px;
-    text-align: center;
-    color: #3B6064;
-  }
-  
-  .LandingPageRight {
-    position: relative;
-    flex: 1;
-    overflow: hidden;
-    background: #f8f9fa;
-  }
-  
-  .circle1, .circle2, .circle3, .circle4 {
-    position: absolute;
-    border-radius: 500px 0 0 500px;
-  }
-  
-  .circle1 {
-    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
-    width: 100%;
-    height: 100%;
-    opacity: 40%;
-  }
+.Tagline{
+  text-align:center;
+}
+.auth-tabs {
+  display: flex;
+  gap: 20px;
+  gap: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  align-self: center;
+}
 
-  .circle2 {
-    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
-    width: 100%;
-    height: 100%;
-    right: -70px;
-    opacity: 70%;
-  }
+.active-tab {
+  font-weight: bold;
+  color: #2d4858;
+  border-bottom: 2px solid #2d4858;
+  color: #364958;
+  border-bottom: 2px solid #364958;
+}
 
-  .circle3 {
-    background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
-    width: 100%;
-    height: 100%;
-    right: -150px;
-  }
+#login-txt{
+  font-size: 24px;
+}
 
-  .arrow{
-    position: absolute;
-    width: 55%;
-    height: auto;
-    top: 65%;
-    left: 75%;
-    transform: translate(-50%, -50%); /* Center the arrow */
-    z-index: 2; /* Ensure it appears on top of the circles */
-  }
-  
+#signup-txt{
+  font-size: 24px;
+}
 
-  
+.inactive-tab {
+  color: #c7c7c7;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+  margin-bottom: 8px;
+  align-self: center;
+  width: 40%;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+  margin-bottom: 8px;
+
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 5px;
+  color: #2d4858;
+  margin-bottom: 4px;
+  color: #364958;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  font-size: 14px;
+
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2d4858;
+  width: 15%;
+  padding: 8px;
+  background-color: #3B6064;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  color: #707070;
+  color: #3B6064;
+}
+
+.LandingPageRight {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+  position: absolute;
+  border-radius: 500px 0 0 500px;
+}
+
+.circle1 {
+  background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+}
+.circle2 {
+  background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+  width: 100%;
+  height: 100%;
+  right: -70px;
+  opacity: 70%;
+}
+.circle3 {
+  background: linear-gradient(135deg, #364958, #759EBE); /* lightblue */
+  width: 100%;
+  height: 100%;
+  right: -150px;
+}
+.arrow{
+  position: absolute;
+  display:flex;
+  width: 100%;
+  height: 100%;
+  top: 65%;
+  left: 75%;
+  transform: translate(-50%, -50%); /* Center the arrow */
+  z-index: 2; /* Ensure it appears on top of the circles */
+}
+
+

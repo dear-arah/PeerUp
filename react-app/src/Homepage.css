@@ -1,7 +1,37 @@
-.top-navbar{
-    position:fixed;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .sidebar{
+    background-color: #364958;
+    color: #f5f5f5;
+    border-radius: 0 25px 25px 0;
+  }
+
+.sidebar-content{
+    font-size: 16px;
 }
 
-.top-navbar-content{
-    margin-top: 24px;
+.icon{
+    height:25px;
+    width: 25px;
+    padding-bottom: 4px;
+    padding-right: 4px;
 }
+
+.icon#resources{
+    height:35px;
+    width:25px;
+    padding-left: 3px;
+    padding-right: 4px;
+}
+
+
+
+
+  

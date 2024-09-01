@@ -1,0 +1,18 @@
+.top-navbar {
+    background-color: #f5f5f5; /* Light background */
+  }
+  
+  .logo {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .icon-link {
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  .icon-link:hover {
+    color: #007bff; /* Bootstrap's primary color */
+  }
